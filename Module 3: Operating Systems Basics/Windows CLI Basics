@@ -1,1 +1,16 @@
+Learning Objectives:
+~ Use the Windows command line confidently
+~ Navigate folders without clicking
+~ Find files when you only know their name
+~ Read files using the terminal
+~ Collect basic system and network information
 
+Notes:
+Commands:
+- dir: will list down the files and the folders present in the current directory.
+- dir /a: shows everything, including hidden items.
+- dir /s <file name>: tells Windows to search all subfolders starting from your current directory and show you the full path if the file exists.
+
+** Completed lab on how to use the Windows Command Prompt to navigate files, search for information, and gather basic system details.
+
+Conclusion - learned how to interact with a Windows system using the command line instead of relying on the graphical interface.
