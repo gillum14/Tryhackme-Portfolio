@@ -1,1 +1,30 @@
+Learning Objectives:
+~ Understand what the Linux terminal is and what it's used for.
+~ Feel comfortable interacting with the Linux environment.
+~ Navigate through the Linux filesystem with basic commands.
 
+Notes:
+Commands:
+- pwd: "print working directory", which basically means "show me the folder I'm currently in".
+- ls: lists the content of the current directory.
+- ls -l: output displays more important information about the files and directories like file sizes, permissions, dates, and more.
+- ls -al: displays all the hidden files present in the directory.
+- cd <directory>: move through the filesystem.
+- cd ..: go "back" one level
+- find <starting_point> -name <filename>: used to locate files within the file system.
+- cat: used to read the content of the file.
+- whoami: prints your current username.
+- uname -a: details about the operating system, kernel version, and architecture.
+- uname: operating system name.
+- df -h: check disk usage or available space.
+
+
+
+** Completed lab to:
+Navigate the Linux filesystem
+Search for files
+Inspect system information
+Read important configuration files
+Follow clues and complete missions inside a Linux environment
+
+Conclusion - explored the basics of Linux CLI through hands-on tasks, simple missions, and beginner-friendly explanations.
