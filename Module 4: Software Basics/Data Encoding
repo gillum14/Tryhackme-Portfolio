@@ -1,1 +1,14 @@
+Learning Objectives:
+~ ASCII
+~ Unicode
+~ UTF-8, UTF-16, and UTF-32
+~ How emoji is encoded
+~ And what causes gibberish characters
 
+Notes:
+- ASCII is a 7-bit standard that defines 128 characters covering English letters, digits, and basic punctuation.
+- Unicode is a universal character encoding standard. It assigns unique code points to characters from all modern and historical writing systems worldwide.
+
+** Completed a lab to learn about ASCII and its limitations, and about Unicode and three encoding standards: UTF-8, UTF-16, and UTF-32. Also explored how Unicode enables us to cover not only the world’s languages but also symbols such as chess pieces and emojis.
+
+Conclusion - learned that characters are just numbers with agreed meanings called an encoding.
