@@ -1,1 +1,19 @@
+Learning Objectives:
+~ Understand what data is and why it matters
+~ Explain what a database is and why it is used
+~ Understand what SQL is and what it is used for
+~ Identify tables, rows, and columns
+~ Write simple SQL queries to retrieve information
 
+Notes:
+- SQL is a language used to ask questions of a database.
+- A query does not change the data. It only displays the requested information from the table.
+- Commands:
+SELECT – choose what data to display
+FROM – choose where the data comes from
+WHERE – filter records based on a condition
+ORDER BY – sort results
+
+** Completed a lab using a café example, learned how tables organise orders into rows and columns, and how simple SQL commands can show, filter, sort, and add data.
+
+Conclusion - learned how computers store information in databases and how SQL is used to ask clear questions about that information.
