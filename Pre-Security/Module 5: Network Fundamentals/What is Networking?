@@ -1,0 +1,18 @@
+Learning Objectives:
+~ Learn networks and their histories
+~ Learn IP
+~ Learn MAC and Ping
+
+Notes:
+- The Internet is one giant network that consists of many, many small networks within itself.
+- A network can be one of two types:
+A private network
+A public network
+- IP address (or Internet Protocol) address can be used as a way of identifying a host on a network for a period of time, where that IP address can then be associated with another device without the IP address changing.
+- An IP address is a set of numbers that are divided into four octets. The value of each octet will summarise to be the IP address of the device on the network.
+- IPv6
+Supports up to 2^128 of IP addresses (340 trillion-plus), resolving the issues faced with IPv4
+More efficient due to new methodologies
+- Devices on a network will all have a physical network interface, which is a microchip board found on the device's motherboard. This network interface is assigned a unique address at the factory it was built at, called a MAC (Media Access Control ) address.
+- Spoofing occurs when a networked device pretends to identify as another using its MAC address.
+- Ping uses ICMP (Internet Control Message Protocol) packets to determine the performance of a connection between devices, for example, if the connection exists or is reliable.
