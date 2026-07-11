@@ -1,16 +1,49 @@
-Learning Objectives:
-~ Use the Windows command line confidently
-~ Navigate folders without clicking
-~ Find files when you only know their name
-~ Read files using the terminal
-~ Collect basic system and network information
+# Windows CLI Basics
 
-Notes:
-Commands:
-- dir: will list down the files and the folders present in the current directory.
-- dir /a: shows everything, including hidden items.
-- dir /s <file name>: tells Windows to search all subfolders starting from your current directory and show you the full path if the file exists.
+## Learning Objectives
 
-** Completed lab on how to use the Windows Command Prompt to navigate files, search for information, and gather basic system details.
+- Use the Windows command line confidently.
+- Navigate folders without clicking.
+- Find files when only the file name is known.
+- Read files using the terminal.
+- Collect basic system and network information.
 
-Conclusion - learned how to interact with a Windows system using the command line instead of relying on the graphical interface.
+## Notes
+
+The Windows command line allows users to interact with a Windows system by typing commands instead of using the graphical interface.
+
+Command-line skills are useful for:
+
+- Navigating folders
+- Finding files
+- Reading files
+- Collecting system information
+- Troubleshooting
+- Security investigation tasks
+
+## Common Windows Command Prompt Commands
+
+| Command | Purpose |
+|---|---|
+| `dir` | Lists files and folders in the current directory |
+| `dir /a` | Shows all items, including hidden files |
+| `dir /s <file name>` | Searches all subfolders from the current directory for a file |
+| `cd <folder>` | Changes to another directory |
+| `cd ..` | Moves back one directory level |
+| `type <file>` | Reads and displays a file in the terminal |
+| `whoami` | Shows the current user |
+| `ipconfig` | Shows network configuration information |
+
+## PowerShell Companion Script
+
+This repo includes a PowerShell script named `windows_cli_basics.ps1`.
+
+The script demonstrates similar Windows command-line concepts using PowerShell commands, including:
+
+- Showing the current directory
+- Listing files and folders
+- Displaying hidden items
+- Showing the current user
+- Collecting system information
+- Displaying network configuration
+-
