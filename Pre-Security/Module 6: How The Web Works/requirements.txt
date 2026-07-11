@@ -1,0 +1,45 @@
+"""
+HTTP Header Inspector
+
+A small learning script for practicing HTTP request and response analysis.
+This supports my TryHackMe HTTP in Detail notes.
+"""
+
+import requests
+
+
+TARGET_URL = "https://example.com"
+
+
+def print_section(title):
+    print(f"\n{'=' * 10} {title} {'=' * 10}")
+
+
+def inspect_url(url):
+    response = requests.get(url, timeout=10)
+
+    print_section("Request")
+    print("Method: GET")
+    print(f"URL: {url}")
+
+    print_section("Response")
+    print(f"Status Code: {response.status_code}")
+    print(f"Reason: {response.reason}")
+
+    print_section("Headers")
+    for header, value in response.headers.items():
+        print(f"{header}: {value}")
+
+    print_section("Cookies")
+    if response.cookies:
+        for cookie in response.cookies:
+            print(f"{cookie.name}: {cookie.value}")
+    else:
+        print("No cookies returned.")
+
+    print_section("Body Preview")
+    print(response.text[:500])
+
+
+if __name__ == "__main__":
+    inspect_url(TARGET_URL)
