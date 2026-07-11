@@ -1,30 +1,67 @@
-Learning Objectives:
-~ Understand what the Linux terminal is and what it's used for.
-~ Feel comfortable interacting with the Linux environment.
-~ Navigate through the Linux filesystem with basic commands.
+# Linux CLI Basics
 
-Notes:
-Commands:
-- pwd: "print working directory", which basically means "show me the folder I'm currently in".
-- ls: lists the content of the current directory.
-- ls -l: output displays more important information about the files and directories like file sizes, permissions, dates, and more.
-- ls -al: displays all the hidden files present in the directory.
-- cd <directory>: move through the filesystem.
-- cd ..: go "back" one level
-- find <starting_point> -name <filename>: used to locate files within the file system.
-- cat: used to read the content of the file.
-- whoami: prints your current username.
-- uname -a: details about the operating system, kernel version, and architecture.
-- uname: operating system name.
-- df -h: check disk usage or available space.
+## Learning Objectives
 
+- Understand what the Linux terminal is and what it is used for.
+- Feel comfortable interacting with the Linux environment.
+- Navigate through the Linux filesystem with basic commands.
 
+## Notes
 
-** Completed lab to:
-Navigate the Linux filesystem
-Search for files
-Inspect system information
-Read important configuration files
-Follow clues and complete missions inside a Linux environment
+The Linux command line interface, or CLI, allows users to interact with the operating system by typing commands into a terminal.
 
-Conclusion - explored the basics of Linux CLI through hands-on tasks, simple missions, and beginner-friendly explanations.
+The CLI is commonly used for:
+
+- Navigating files and directories
+- Reading and editing files
+- Checking system information
+- Managing permissions
+- Running scripts
+- Troubleshooting systems
+
+## Common Linux Commands
+
+| Command | Purpose |
+|---|---|
+| `pwd` | Prints the current working directory |
+| `ls` | Lists the contents of the current directory |
+| `ls -l` | Lists files with details such as permissions, size, and date |
+| `ls -al` | Lists all files, including hidden files |
+| `cd <directory>` | Moves into another directory |
+| `cd ..` | Moves back one directory level |
+| `find <starting_point> -name <filename>` | Searches for a file by name |
+| `cat <file>` | Reads and prints the contents of a file |
+| `whoami` | Prints the current username |
+| `uname` | Prints the operating system name |
+| `uname -a` | Prints kernel, system, and architecture information |
+| `df -h` | Shows disk usage in a human-readable format |
+
+## Lab Completed
+
+Completed a lab to practice:
+
+- Navigating the Linux filesystem
+- Searching for files
+- Inspecting system information
+- Reading important configuration files
+- Following clues and completing missions inside a Linux environment
+
+## Companion Script
+
+This repo includes a Bash script named `linux_cli_practice.sh`.
+
+The script safely demonstrates beginner Linux commands, including:
+
+- `pwd`
+- `whoami`
+- `uname`
+- `ls`
+- `df -h`
+- `find`
+
+## How to Run the Script
+
+From the terminal, run:
+
+```bash
+bash linux_cli_practice.sh
